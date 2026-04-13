@@ -22,8 +22,18 @@ Ce guide vous explique comment configurer EmailJS pour que le formulaire de cont
 2. Cliquez sur **"Create New Template"**
 3. **IMPORTANT** : Dans le champ **"To Email"**, entrez : `stela.esport@gmail.com`
    - C'est l'adresse qui recevra toutes les réponses du formulaire
-4. Dans le champ **"From Name"**, vous pouvez mettre : `SAKURA TEAMS` ou `{{from_name}}`
-5. Configurez votre template avec les variables suivantes :
+4. Créez un fichier `.env.local` à la racine du projet (ou copiez `.env.example`).
+   - Ce fichier permet à Vite de charger vos identifiants EmailJS en local sans les committer.
+5. Dans `.env.local`, ajoutez :
+   ```env
+   VITE_EMAILJS_SERVICE_ID=your_service_id_here
+   VITE_EMAILJS_TEMPLATE_ID=your_template_id_here
+   VITE_EMAILJS_PUBLIC_KEY=your_public_key_here
+   VITE_EMAIL_DESTINATION=stela.esport@gmail.com
+   VITE_DISCORD_LINK=https://discord.gg/EUqyFQhcbR
+   ```
+6. Dans le champ **"From Name"**, vous pouvez mettre : `SAKURA TEAMS` ou `{{from_name}}`
+7. Configurez votre template avec les variables suivantes :
    - `{{to_email}}` - Email de destination (stela.esport@gmail.com)
    - `{{from_name}}` - Nom/Pseudo de l'expéditeur
    - `{{from_email}}` - Email de l'expéditeur
