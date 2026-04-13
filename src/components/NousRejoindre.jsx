@@ -78,7 +78,7 @@ const NousRejoindre = () => {
 
     try {
       // Adresse email de destination depuis les variables d'environnement
-      const toEmail = import.meta.env.VITE_EMAIL_DESTINATION || 'fazekiti@gmail.com';
+      const toEmail = import.meta.env.VITE_EMAIL_DESTINATION || 'stela.esport@gmail.com';
       
       console.log('Envoi EmailJS avec:', {
         serviceId,

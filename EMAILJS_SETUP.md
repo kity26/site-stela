@@ -20,11 +20,11 @@ Ce guide vous explique comment configurer EmailJS pour que le formulaire de cont
 
 1. Allez dans **"Email Templates"**
 2. Cliquez sur **"Create New Template"**
-3. **IMPORTANT** : Dans le champ **"To Email"**, entrez : `fazekiti@gmail.com`
+3. **IMPORTANT** : Dans le champ **"To Email"**, entrez : `stela.esport@gmail.com`
    - C'est l'adresse qui recevra toutes les réponses du formulaire
 4. Dans le champ **"From Name"**, vous pouvez mettre : `SAKURA TEAMS` ou `{{from_name}}`
 5. Configurez votre template avec les variables suivantes :
-   - `{{to_email}}` - Email de destination (fazekiti@gmail.com)
+   - `{{to_email}}` - Email de destination (stela.esport@gmail.com)
    - `{{from_name}}` - Nom/Pseudo de l'expéditeur
    - `{{from_email}}` - Email de l'expéditeur
    - `{{pseudo}}` - Pseudo Activision
