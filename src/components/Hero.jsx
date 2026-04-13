@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom';
 
 const Hero = () => {
     return (
-        <main className="flex lg:mt-20 flex-col lg:flex-row items-center justify- between min-h-[calc(90vh-6rem)]">
+        <main className="flex lg:mt-20 flex-col lg:flex-row items-center justify-between min-h-[calc(90vh-6rem)]">
 
             <div data-aos="fade-right"
                 data-aos-offset="300"
-                data-aos-easing="ease-in-sine" className="max-w-x1 ml-[5%] z-10 mt-[90%] md:mt-[60%] lg:mt-0">
+                data-aos-easing="ease-in-sine" className="max-w-xl ml-[5%] z-10 mt-[90%] md:mt-[60%] lg:mt-0">
                 
 
                 {/* Main  Heading */}
