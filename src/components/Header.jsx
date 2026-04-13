@@ -18,26 +18,13 @@ const Header = () => {
   return (
     <header className="sticky top-0 z-50 relative flex justify-between items-center py-4 px-4  lg:px-20">
 
-      <h1
+      <div
         data-aos="fade-down"
         data-aos-easing="linear"
         data-aos-duration="1500"
-        className="text-xl md:text-2xl lg:text-3xl font-semibold tracking-[0.18em] m-0 text-[#fff2e6] [text-shadow:0_0_8px_rgba(233,155,99,0.75),0_0_20px_rgba(233,155,99,0.55)]"
+        className="px-12"
       >
-        SAKURA
-      </h1>
-
-      <div className="flex items-center gap-4 z-50">
-        {/* Bouton Reseaux */}
-        <Link
-          to="/reseaux"
-          className="border border-[#2a2a2a] py-2 px-5 sm:px-7 rounded-full text-sm sm:text-base font-semibold tracking-wider transition-all duration-300 hover:bg-[#1a1a1a] bg-gray-300 text-black hover:text-white"
-          data-aos="fade-down"
-          data-aos-easing="linear"
-          data-aos-duration="500"
-        >
-          RESEAUX <i className='bx bx-link-external'></i>
-        </Link>
+        <img src={`${import.meta.env.BASE_URL}vite.svg`} alt="STELA.ESPORT Logo" className="h-10 w-auto" />
       </div>
 
       {/* Desktop Navigation (centree) */}
@@ -72,15 +59,6 @@ const Header = () => {
           TOURNOIS
         </Link>
 
-        <Link
-          to="/contact"
-          data-aos="fade-down"
-          data-aos-easing="linear"
-          data-aos-duration="2500"
-          className="text-base tracking-wider transition-all duration-300 hover:text-[#e99b63] hover:scale-110 hover:drop-shadow-[0_0_10px_rgba(233,155,99,0.8)] z-50 relative"
-        >
-          CONTACT
-        </Link>
       </nav>
 
       {/* Mobile Menu Botton - Visible only on Mobile */}
@@ -119,12 +97,6 @@ const Header = () => {
             TOURNOIS
           </Link>
 
-          <Link
-            to="/contact"
-            className="text-base tracking-wider transition-all duration-300 hover:text-[#e99b63] hover:scale-110 hover:drop-shadow-[0_0_10px_rgba(233,155,99,0.8)] z-50"
-          >
-            CONTACT
-          </Link>
         </nav>
       </div>
 

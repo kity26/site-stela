@@ -139,7 +139,7 @@ const NousRejoindre = () => {
           data-aos-duration="1000"
           className="text-4xl md:text-5xl lg:text-6xl font-light tracking-wider mb-8 text-center"
         >
-          REJOIGNEZ LA SAKURA
+          REJOIGNEZ LA STELA
         </h1>
 
         {/* Texte d'introduction */}
@@ -150,7 +150,7 @@ const NousRejoindre = () => {
           className="mb-12 text-center"
         >
           <p className="text-base md:text-lg text-gray-300 leading-relaxed max-w-3xl mx-auto mb-4">
-            La SAKURA est une équipe e-sport compétitive fondée autour de Call of Duty.
+            La STELA est une équipe e-sport compétitive fondée autour de warzone et Call of Duty league.
             Nous recherchons des joueurs passionnés, motivés et déterminés à donner le meilleur d'eux-mêmes.
           </p>
           <p className="text-base md:text-lg text-gray-300 leading-relaxed max-w-3xl mx-auto">
@@ -171,7 +171,7 @@ const NousRejoindre = () => {
             target="_blank"
             rel="noopener noreferrer"
             onClick={(e) => {
-              if (!discordLink || discordLink === 'https://discord.gg/ton-serveur') {
+              if (!discordLink || discordLink === 'https://discord.gg/GzbdJRjZ3k') {
                 e.preventDefault();
                 alert('Le lien Discord n\'est pas configuré. Veuillez contacter l\'administrateur.');
               }

@@ -12,8 +12,8 @@ const Tournois = () => {
       <div className="max-w-3xl text-center bg-black bg-opacity-40 p-8 rounded-lg">
         <h3 className="text-2xl font-medium mb-4">Où on joue ?</h3>
         <p className="text-gray-300 mb-6">
-          Les tournois auxquels nous participons sont organisés par Cypher Legends Games.
-          KITI, le manager, inscrit différents trios afin de représenter la structure lors de diverses parties privées organisées par Cypher.
+          Les tournois auxquels nous participons sont organisés par des structures externes.
+          KITI, le manager, inscrit différents trios afin de représenter la structure lors de diverses parties privées organisées par ces structures.
           Ces tournois sont rémunérés en cas de victoire, ce qui permet de récompenser les joueurs et de contribuer au développement de notre structure.
         </p>
 

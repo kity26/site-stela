@@ -1,9 +1,8 @@
 import Header from "./components/Header"
 import Hero from "./components/Hero"
-import Contact from "./components/Contact"
+import Footer from "./components/Footer"
 import NousRejoindre from "./components/NousRejoindre"
 import Tournois from "./components/Tournois"
-import Reseaux from "./components/Reseaux"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
@@ -37,10 +36,9 @@ export default function App() {
         {/* Autres pages */}
         <Route path="/nous-rejoindre" element={<NousRejoindre />} />
         <Route path="/tournois" element={<Tournois />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/reseaux" element={<Reseaux />} />
       </Routes>
 
+      <Footer />
      </main>
   )
 }
